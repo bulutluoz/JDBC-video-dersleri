@@ -22,7 +22,7 @@ FROM users
 WHERE firstname = 'Elf';
 
 
-SELECT *
+SELECT username
 FROM users;
 
 SELECT email
