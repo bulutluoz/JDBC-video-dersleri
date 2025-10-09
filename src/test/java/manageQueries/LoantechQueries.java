@@ -6,4 +6,6 @@ public class LoantechQueries {
     public static String usersTablosundakiNameSorgusu = "SELECT firstname FROM users";
     public static String subscribersEmailSorgusu = "SELECT email FROM subscribers";
 
+    public static String depositsTablosundakiAmaountSorgusu = "SELECT amount FROM deposits";
+
 }

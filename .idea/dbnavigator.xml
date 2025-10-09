@@ -31,14 +31,20 @@ WHERE id = 14;
 
 UPDATE users
 SET firstname = 'Java'
-WHERE username = 'darkdark';]]></console>
+WHERE username = 'darkdark';
+
+SELECT amount
+FROM deposits;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" object-ref="consoles/Connection" />
+      <object connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" object-ref="schemas/u201212290_qaloantec/tables/deposits" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="830ef315-30dc-4849-a321-63f8b2ca3b48" />
@@ -46,6 +52,7 @@ WHERE username = 'darkdark';]]></console>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.frontends" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.subscribers" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.deposits" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.users" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
