@@ -34,26 +34,35 @@ SET firstname = 'Java'
 WHERE username = 'darkdark';
 
 SELECT amount
-FROM deposits;]]></console>
+FROM deposits;
+
+SELECT name
+FROM cron_schedules;
+
+SELECT username
+FROM saucedemo
+WHERE id = 1006;
+
+SELECT email FROM subscribers WHERE id = 20;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" object-ref="consoles/Connection" />
-      <object connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" object-ref="schemas/u201212290_qaloantec/tables/deposits" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="830ef315-30dc-4849-a321-63f8b2ca3b48" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.frontends" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.saucedemo" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.subscribers" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.deposits" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.cron_schedules" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="830ef315-30dc-4849-a321-63f8b2ca3b48" dataset="u201212290_qaloantec.languages" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />

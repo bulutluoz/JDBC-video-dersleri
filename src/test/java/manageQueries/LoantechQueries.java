@@ -8,4 +8,12 @@ public class LoantechQueries {
 
     public static String depositsTablosundakiAmaountSorgusu = "SELECT amount FROM deposits";
 
+    public static String cronSchedulesTablosuNameSorgusu = "SELECT name FROM cron_schedules;";
+
+    public static String saucedemo1006NoluKaydinUsernameSorgusu = "SELECT username FROM saucedemo WHERE id = 1006;";
+
+    public static String subscribersTablosundaki20numaraliKaydinEmailSorgusu = "SELECT email FROM subscribers WHERE id = 20;";
+
+
+
 }
